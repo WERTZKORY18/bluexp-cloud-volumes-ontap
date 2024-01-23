@@ -123,7 +123,7 @@ ifdef::azure[]
 
 * Three Premium SSD disks:
 ** One 10 GiB disk for boot data
-** One 140 GiB disk for root data
+** One 512 GiB disk for root data
 ** One 512 GiB disk for NVRAM
 +
 If the virtual machine that you chose for Cloud Volumes ONTAP supports Ultra SSDs, then the system uses a 32 GiB Ultra SSD for NVRAM, rather than a Premium SSD.
